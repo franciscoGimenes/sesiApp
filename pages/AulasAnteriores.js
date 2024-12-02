@@ -161,6 +161,12 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     marginBottom: -20,
   },
+  emptyMessage: {
+    textAlign: 'center',
+    fontSize: 16,
+    color: '#888',
+    marginTop: 50,
+  },
   observacaoBox: {
     backgroundColor: '#E0E0E0',
     padding: 15,

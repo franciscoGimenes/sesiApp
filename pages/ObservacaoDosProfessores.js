@@ -159,9 +159,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5F5F5',
     paddingTop: 70
   },
-  scrollContent:{
-    padding:20,
-  },
   observacaoBox: {
     backgroundColor: '#E0E0E0',
     padding: 15,

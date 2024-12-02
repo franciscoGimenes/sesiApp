@@ -138,15 +138,6 @@ const ObservacaoDosProfessores = () => {
 
 const styles = StyleSheet.create({
   // (Estilos permanecem os mesmos do código anterior)
-  container: {
-    flex: 1,
-    padding: 20,
-    backgroundColor: '#F5F5F5',
-    paddingTop: 70,
-  },
-  scrollContent: {
-    padding: 20,
-  },
   semObservacoes: {
     textAlign: 'center',
     fontSize: 16,
@@ -157,7 +148,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
     backgroundColor: '#F5F5F5',
-    paddingTop: 70
+    paddingTop: 45
   },
   scrollContent:{
     padding:20,

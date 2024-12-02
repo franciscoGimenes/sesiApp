@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
   },
   header: {
     width: '100%',
-    paddingVertical: 70,
+    paddingVertical: 55,
     paddingHorizontal: 20,
     alignItems: 'flex-start',
     backgroundColor: '#00C2FF',
@@ -321,6 +321,7 @@ const styles = StyleSheet.create({
   iconText: {
     fontSize: 12,
     textAlign: 'center',
+    width: '120%',
   },
 });
 

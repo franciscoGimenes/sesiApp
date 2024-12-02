@@ -205,6 +205,7 @@ const styles = StyleSheet.create({
   chairsOrganization: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    marginLeft: -20,
   },
   row: {
     flexDirection: 'row',

@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
   },
   header: {
     width: '100%',
-    paddingVertical: 70,
+    paddingVertical: 50,
     paddingHorizontal: 20,
     alignItems: 'flex-start',
     backgroundColor: '#00C2FF',
@@ -228,10 +228,10 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     width: 160,
-    paddingTop: -50
+    paddingTop: -90
   },
   profilePicture: {
-    marginTop: -60,
+    marginTop: -70,
     width: 150,
     height: 150,
     borderRadius: 100,

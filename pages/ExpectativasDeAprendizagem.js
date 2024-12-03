@@ -79,7 +79,7 @@ const ExpectativasDeAprendizagem = () => {
       <View style={styles.voltarBox}>
         <View style={styles.voltarButton}>
           <Image style={styles.iconImage} source={Expec} />
-          <Text style={styles.voltarText}>Expectativas de Aprendizagem</Text>
+          <Text style={styles.voltarText}>Expec. de Aprendizagem</Text>
           <TouchableOpacity onPress={() => navigation.goBack()}>
             <View style={styles.fecharIcon}>
               <Text style={styles.fecharIconText}>X</Text>
@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#000',
-    paddingRight: 40,
+    paddingRight: 80,
   },
   fecharIcon: {
     backgroundColor: '#00FFAB',

@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   alunoTexto: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600'
   },
   topRow: {
@@ -205,6 +205,7 @@ const styles = StyleSheet.create({
   chairsOrganization: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    marginLeft: -20,
   },
   row: {
     flexDirection: 'row',

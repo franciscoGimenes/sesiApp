@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   alunoTexto: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600'
   },
   topRow: {

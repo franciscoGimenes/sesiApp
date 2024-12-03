@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, Alert, LogBox } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity, Alert, LogBox, ScrollView } from 'react-native';
 import * as ImagePicker from "expo-image-picker";
 import AsyncStorage from '@react-native-async-storage/async-storage'; // Importando o AsyncStorage
 import Aula from '../img/Aula.png';
@@ -149,6 +149,7 @@ const Home = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
+
       <View style={styles.header}>
         <Text style={styles.headerText}>SESI CE240 - Ferraz de Vasconcelos</Text>
       </View>
@@ -183,7 +184,7 @@ const Home = ({ navigation }) => {
         <View style={styles.iconRow}>
           <TouchableOpacity style={[styles.iconBox]} onPress={() => handleNavigate('ObservacaoDosProfessores')}>
             <Image style={styles.iconImage} source={Obs} />
-            <Text style={styles.iconText}>Observações dos Professores</Text>
+            <Text style={styles.iconText}>Obs. dos Professores</Text>
           </TouchableOpacity>
           <TouchableOpacity style={[styles.iconBox]} onPress={() => handleNavigate('MapeamentoDaSala')}>
             <Image style={styles.iconImage} source={Map} />
@@ -198,7 +199,7 @@ const Home = ({ navigation }) => {
         <View style={styles.iconRowNoSpace}>
           <TouchableOpacity style={[styles.iconBox]} onPress={() => handleNavigate('ExpectativasDeAprendizagem')}>
             <Image style={styles.iconImage} source={Expec} />
-            <Text style={styles.iconText}>Expectativas de Aprendizagem</Text>
+            <Text style={styles.iconText}>Expec. de Aprendizagem</Text>
           </TouchableOpacity>
           <TouchableOpacity style={[styles.iconBox]} onPress={() => handleNavigate('AulasAnteriores')}>
             <Image style={styles.iconImage} source={Aula} />
@@ -218,20 +219,21 @@ const styles = StyleSheet.create({
   },
   header: {
     width: '100%',
-    paddingVertical: 50,
+    paddingVertical: 80,
     paddingHorizontal: 20,
     alignItems: 'flex-start',
     backgroundColor: '#00C2FF',
   },
+ 
   headerText: {
     color: 'white',
     fontSize: 14,
     fontWeight: 'bold',
     width: 160,
-    paddingTop: -90
+    marginTop: -20
   },
   profilePicture: {
-    marginTop: -70,
+    marginTop: -60,
     width: 150,
     height: 150,
     borderRadius: 100,
@@ -307,11 +309,11 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   iconBox: {
-    width: '31%',
+    width: '30%',
     padding: 10,
     borderRadius: 10,
     alignItems: 'center',
-    marginRight: 13,
+    marginRight: 15,
   },
   iconImage: {
     width: 50,
@@ -319,7 +321,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   iconText: {
-    fontSize: 12,
+    fontSize: 11,
     textAlign: 'center',
   },
 });
